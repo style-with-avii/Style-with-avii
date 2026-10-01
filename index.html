@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Style With Avii | Fashion Finds</title>
+<meta name="description" content="Style With Avii - trendy and affordable fashion finds.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:"DM Sans",sans-serif;background:#faf8f5;color:#171717;line-height:1.5}
+a{text-decoration:none;color:inherit}
+.container{width:min(1120px,92%);margin:auto}
+nav{position:sticky;top:0;z-index:20;background:rgba(250,248,245,.94);backdrop-filter:blur(12px);border-bottom:1px solid #e9e3dc}
+.navin{height:68px;display:flex;align-items:center;justify-content:space-between}
+.logo{font-family:"Playfair Display",serif;font-size:25px;font-weight:700}
+.logo span{font-family:"DM Sans";font-size:12px;display:block;letter-spacing:2px;text-transform:uppercase;color:#777}
+.navlinks{display:flex;gap:24px;font-size:14px;font-weight:600}
+.hero{padding:72px 0 55px}
+.heroGrid{display:grid;grid-template-columns:1.1fr .9fr;gap:35px;align-items:center}
+.eyebrow{font-size:12px;letter-spacing:2.5px;text-transform:uppercase;color:#7d6b5c;font-weight:700}
+h1{font-family:"Playfair Display",serif;font-size:clamp(44px,7vw,76px);line-height:1.02;margin:15px 0}
+.hero p{max-width:560px;color:#666;font-size:17px}
+.buttons{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}
+.btn{padding:13px 20px;border-radius:999px;font-weight:700;font-size:14px;display:inline-block}
+.btnDark{background:#171717;color:#fff}
+.btnLight{border:1px solid #d8d0c8;background:#fff}
+.heroCard{min-height:420px;border-radius:28px;background:linear-gradient(145deg,#e7ded4,#c8b6a4);display:flex;align-items:end;justify-content:center;overflow:hidden;position:relative}
+.heroCard:after{content:"FASHION";position:absolute;top:28px;right:-15px;font-size:70px;font-weight:700;letter-spacing:4px;color:rgba(255,255,255,.28);transform:rotate(90deg)}
+.model{width:68%;height:330px;border-radius:180px 180px 25px 25px;background:linear-gradient(180deg,#242424 0 18%,#b7a08c 18% 72%,#333 72%);box-shadow:0 25px 40px rgba(0,0,0,.15);position:relative}
+.model:before{content:"";position:absolute;width:110px;height:110px;border-radius:50%;background:#a87558;top:-65px;left:50%;transform:translateX(-50%);box-shadow:0 -12px 0 9px #222}
+section{padding:55px 0}
+.sectionHead{display:flex;justify-content:space-between;align-items:end;margin-bottom:24px}
+.sectionHead h2{font-family:"Playfair Display",serif;font-size:36px}
+.muted{color:#777;font-size:14px}
+.products{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
+.card{background:#fff;border:1px solid #eee7e0;border-radius:20px;overflow:hidden}
+.pic{aspect-ratio:1/1.08;background:#eee7e0;display:flex;align-items:center;justify-content:center;color:#8b8178;font-weight:700;letter-spacing:1px}
+.pic img{width:100%;height:100%;object-fit:cover}
+.cardBody{padding:15px}
+.card h3{font-size:16px;margin-bottom:5px}
+.price{font-weight:800}
+.small{font-size:12px;color:#777;margin-top:4px}
+.cardBtn{display:block;text-align:center;margin-top:13px;background:#171717;color:white;border-radius:10px;padding:10px;font-size:13px;font-weight:700}
+.banner{background:#1b1b1b;color:#fff;border-radius:28px;padding:42px;display:flex;justify-content:space-between;align-items:center;gap:25px}
+.banner h2{font-family:"Playfair Display",serif;font-size:34px}
+.banner p{color:#c9c9c9;margin-top:6px}
+.instagram{text-align:center}
+.instagram h2{font-family:"Playfair Display",serif;font-size:38px}
+.instaHandle{font-size:20px;font-weight:800;margin:8px 0 20px}
+footer{border-top:1px solid #e8e1da;padding:28px 0;margin-top:20px;color:#777;font-size:13px}
+@media(max-width:850px){.heroGrid{grid-template-columns:1fr}.heroCard{min-height:330px}.products{grid-template-columns:repeat(2,1fr)}.navlinks{display:none}.banner{display:block}.banner .btn{margin-top:18px}}
+@media(max-width:500px){.hero{padding-top:48px}.products{gap:12px}.cardBody{padding:12px}.sectionHead h2{font-size:29px}.banner{padding:28px}.banner h2{font-size:29px}}
+</style>
+</head>
+<body>
+<nav><div class="container navin">
+  <a class="logo" href="#">Style With Avii<span>Fashion Finds</span></a>
+  <div class="navlinks"><a href="#collection">Collection</a><a href="#deals">Deals</a><a href="#instagram">Instagram</a></div>
+</div></nav>
+
+<header class="hero"><div class="container heroGrid">
+  <div>
+    <div class="eyebrow">Affordable • Trendy • Everyday Style</div>
+    <h1>Discover Your Next Fashion Look.</h1>
+    <p>Curated fashion finds, stylish kurtas, T-shirts and seasonal looks — selected for a premium look without the premium price.</p>
+    <div class="buttons">
+      <a class="btn btnDark" href="#collection">Shop Collection</a>
+      <a class="btn btnLight" href="https://www.instagram.com/style_withavii01/" target="_blank">Follow Instagram</a>
+    </div>
+  </div>
+  <div class="heroCard"><div class="model"></div></div>
+</div></header>
+
+<section id="collection"><div class="container">
+  <div class="sectionHead"><div><div class="eyebrow">Featured</div><h2>Latest Fashion Finds</h2></div><div class="muted">Replace these with your products</div></div>
+  <div class="products">
+    <article class="card"><div class="pic">PRODUCT PHOTO</div><div class="cardBody"><h3>Premium T-Shirt</h3><div class="price">₹299</div><div class="small">Add your product details</div><a class="cardBtn" href="#" onclick="return false">View Product</a></div></article>
+    <article class="card"><div class="pic">PRODUCT PHOTO</div><div class="cardBody"><h3>Festive Kurta</h3><div class="price">₹399</div><div class="small">Add your product details</div><a class="cardBtn" href="#" onclick="return false">View Product</a></div></article>
+    <article class="card"><div class="pic">PRODUCT PHOTO</div><div class="cardBody"><h3>Winter Look</h3><div class="price">₹499</div><div class="small">Add your product details</div><a class="cardBtn" href="#" onclick="return false">View Product</a></div></article>
+    <article class="card"><div class="pic">PRODUCT PHOTO</div><div class="cardBody"><h3>Budget Pick</h3><div class="price">Under ₹299</div><div class="small">Add your product details</div><a class="cardBtn" href="#" onclick="return false">View Product</a></div></article>
+  </div>
+</div></section>
+
+<section id="deals"><div class="container">
+  <div class="banner"><div><div class="eyebrow" style="color:#c8b19d">Budget Deals</div><h2>Good style. Better prices.</h2><p>Discover affordable fashion picks under ₹299 and ₹399.</p></div><a class="btn btnLight" href="#collection">Explore Deals</a></div>
+</div></section>
+
+<section id="instagram"><div class="container instagram">
+  <div class="eyebrow">Follow the looks</div><h2>@style_withavii01</h2>
+  <p class="muted">More outfit inspiration, product finds and fashion videos on Instagram.</p>
+  <div class="buttons" style="justify-content:center"><a class="btn btnDark" href="https://www.instagram.com/style_withavii01/" target="_blank">Open Instagram</a></div>
+</div></section>
+
+<footer><div class="container">© 2026 Style With Avii • Fashion Finds</div></footer>
+</body>
+</html>
